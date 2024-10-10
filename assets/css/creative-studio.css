@@ -4569,7 +4569,7 @@ input[type="button"].btn-block {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1rem 1rem;
-  background-color: #000;
+  ;
 }
 
 .navbar > .container,
@@ -11526,8 +11526,13 @@ p {
 }
 
 @media (max-width: 991.98px) {
+  .contact-card{
+    flex-direction: column;
+  }
   .contact-card .infos {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
   }
 }
 
