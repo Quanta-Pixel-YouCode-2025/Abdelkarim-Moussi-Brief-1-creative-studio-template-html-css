@@ -15,7 +15,7 @@
   --blue: #79A9F5;
   --indigo: #C45F90;
   --purple: #A16AE8;
-  --pink: rgb(255, 33, 79);
+  --pink: #ff214f;
   --red: #F85C70;
   --orange: #FF8882;
   --yellow: #FAD02C;
@@ -4702,6 +4702,7 @@ input[type="button"].btn-block {
   }
   .navbar-expand-sm .navbar-nav .dropdown-menu {
     position: absolute;
+
   }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.7rem;
@@ -4746,6 +4747,7 @@ input[type="button"].btn-block {
     -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+            background-color: #000;
   }
   .navbar-expand-md .navbar-nav {
     -webkit-box-orient: horizontal;
@@ -4753,9 +4755,11 @@ input[type="button"].btn-block {
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
+            background-color: #000;
   }
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
+    background-color: #000;
   }
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0.7rem;
