@@ -12424,3 +12424,70 @@ section .section-title {
   object-fit: cover;
 }
 
+/*Sign up form*/
+
+.sign-up-container{
+  display: flex;
+  justify-content: center;
+}
+.sign-up-container form{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.sign-up-container form input{
+  margin-bottom: 7px;
+  color: var(--gray);
+  outline-color: var(--danger);
+  padding-left: 3px;
+  font-size: 14px;
+  border: 2px solid #acb0b3;
+}
+.sign-up-container form input,.sign-up-container button{
+ width: 100%;
+ height: 45px;
+}
+.sign-up_btn{
+  outline: none;
+  border: 2px solid var(--danger);
+  background: transparent;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.sign-up_btn:hover{
+  background-color: var(--danger);
+  transition: 0.5;
+  color: var(--white);
+}
+
+#sign-up{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up_heading{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  padding: 20px;
+}
+
+.sign-up_title{
+  font-size: 1.4rem;
+  color: var(--danger);
+  text-transform: uppercase;
+}
+.sign-up_subtitle{
+  font-size: 2.2rem;
+  text-transform: capitalize;
+}
+
+@media(max-width:768px){
+  .sign-up-container form{
+    width: 90vw;
+  }
+}
