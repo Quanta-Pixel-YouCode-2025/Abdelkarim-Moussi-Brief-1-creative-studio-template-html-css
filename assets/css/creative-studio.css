@@ -12409,6 +12409,14 @@ section .section-title {
   background: url(../imgs/b6.jpg) no-repeat center center fixed;
   background-size: cover;
 }
+.contact-image{
+  background: url(../imgs/bg1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.signup-image{
+  background: url(../imgs/bg3.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
 .header-page_image {
   position: relative;
   padding: 0;
