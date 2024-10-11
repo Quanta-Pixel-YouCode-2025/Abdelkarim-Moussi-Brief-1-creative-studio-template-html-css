@@ -3,6 +3,7 @@ Transformation du site web Creative Studio qui est une seule page site en un mul
 -la creation individuel de chaque page et l'ajout de contenus de chacune
 
 -Les page :
+    home : changer l'arrière plan image
     About : contient des information appropos de l'agence et leur activités
 	Team : les information des membre d'équipe
 	Portfolio : les projet qui ont déja réaliser
